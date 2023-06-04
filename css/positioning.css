@@ -123,7 +123,7 @@ address {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  padding-start: -40px;
+  padding: 0;
 }
 .team {
   background-color: #f5f4fa;
@@ -172,4 +172,50 @@ address {
 p {
   font-size: 14px;
   line-height: 1.7;
+}
+/*--------------------modal----------------*/
+.backdrop {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  transform: scale(1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  transform: rotate(240deg);
+  pointer-events: none;
+}
+.modal {
+  position: absolute;
+  width: 528px;
+  height: 581px;
+  left: 536px;
+  right: 536px;
+  top: 221px;
+  background: var(--background-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  bottom: 222px;
+  cursor: auto;
+  margin: auto;
+}
+.modal-close {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: var(--background-color);
+  position: relative;
+  top: 8px;
+  left: 91%;
+  cursor: pointer;
 }
