@@ -15,6 +15,8 @@ body {
   cursor: pointer;
   line-height: 1.6;
   font-weight: 500;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .active-button {
   font-weight: 500;
@@ -33,6 +35,8 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .active-button-one {
   font-weight: 500;
@@ -119,6 +123,8 @@ a {
   font-weight: 500;
   line-height: 1.17;
   color: var(--brand-blue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-links-two {
   font-weight: 500;
@@ -134,6 +140,8 @@ a {
   letter-spacing: 0.02em;
   color: var(--brand-blue);
   line-height: 1.17;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .email-nav {
   color: var(--gray-color);
@@ -153,6 +161,8 @@ a {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 p1 {
   font-weight: 700;
@@ -218,6 +228,8 @@ p4 {
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--brand-blue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-index {
   font-weight: 500;
@@ -235,6 +247,8 @@ p4 {
   letter-spacing: 0.02em;
 
   color: var(--brand-blue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-index-two {
   font-weight: 500;
@@ -250,6 +264,8 @@ p4 {
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--brand-blue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-index-three {
   font-weight: 500;
@@ -265,6 +281,8 @@ p4 {
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--brand-blue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-index {
   background-color: #2f303a;
@@ -307,6 +325,8 @@ p4 {
 
   width: 200px;
   height: 50px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .index-button {
   background: var(--brand-blue);
@@ -385,6 +405,8 @@ li {
   background-color: var(--brand-blue);
   fill: var(--background-color);
   border-radius: 50%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-element {
@@ -422,6 +444,8 @@ li {
 .client-link:focus {
   border-color: var(--brand-blue);
   fill: var(--brand-blue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-item {
@@ -463,6 +487,8 @@ li {
 .footer-social-link:focus {
   background-color: var(--brand-blue);
   border-radius: 50%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon-element {
   width: 44px;
@@ -493,4 +519,27 @@ li {
 }
 .foot-address-three {
   padding-bottom: 9px;
+}
+
+/*--------------foto-----------*/
+.what-list-item {
+  position: relative;
+  display: flex;
+}
+.index-label {
+  width: 100%;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  position: absolute;
+  bottom: 0;
+}
+.label {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  display: flex;
+  letter-spacing: 0.03em;
+  justify-content: center;
+  margin-top: 27px;
+  color: var(--background-color);
 }
